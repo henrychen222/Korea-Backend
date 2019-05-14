@@ -1,0 +1,22 @@
+.Resource {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: bisque;
+    height: 40px;
+}
+
+#table1{
+    position: absolute;
+    /*padding-bottom: 1000px;*/
+    /*padding-right: 3000px;*/
+}
+
+#table2{
+    position: absolute;
+    right: 0px;
+}
+
+#add{
+    position: absolute;
+    right: 15px;
+}

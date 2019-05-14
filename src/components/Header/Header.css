@@ -1,0 +1,16 @@
+#header {
+    background-color: aqua;
+    height: 60px;
+}
+
+#user {
+    position: absolute;
+    top: 15px;
+    right: 300px;
+}
+
+#question {
+    position: absolute;
+    top: 15px;
+    right: 100px;
+}
