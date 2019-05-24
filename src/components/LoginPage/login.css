@@ -1,0 +1,91 @@
+/*5.19 evening*/
+
+.help-block-username{
+    position: absolute;
+    top: 31.5%;
+    right: 25%;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: red;
+}
+
+.help-block-pwd{
+    position: absolute;
+    top: 39.5%;
+    right: 25%;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: red;
+}
+
+#login{
+    color: orange;
+    font-size: 50px;
+    font-style: oblique;
+}
+
+#username{
+    position: absolute;
+    top: 27%;
+    left: 40%;
+}
+
+
+#username_input{
+    position: absolute;
+    top: 31%;
+    left: 40%;
+    padding: 0.5% 6.5% 0.5% 6.5%;
+    background-color: lightyellow;
+}
+
+#pwd{
+    position: absolute;
+    top: 36%;
+    left: 40%;
+}
+
+#pwd_input{
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    padding: 0.5% 6.5% 0.5% 6.5%;
+    background-color: lightyellow;
+}
+
+#login_btn{
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    /*top right bottom left*/
+    padding: 0.5% 10% 0.5% 10%;
+    background-color:orangered;
+
+}
+
+#register_btn{
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    padding: 0.5% 3% 0.5% 3%;
+    background-color: orangered;
+}
+
+#remember_me{
+    position: absolute;
+    top: 49%;
+    left: 42%;
+}
+
+#checkbox{
+    position: absolute;
+    top: 51%;
+    left: 40%;
+}
+
+#forget_pwd{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    font-size: small;
+}

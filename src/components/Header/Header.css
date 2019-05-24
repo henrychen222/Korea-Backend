@@ -6,11 +6,17 @@
 #user {
     position: absolute;
     top: 15px;
-    right: 300px;
+    right: 230px;
 }
 
 #question {
     position: absolute;
     top: 15px;
-    right: 100px;
+    right: 50px;
+}
+
+#cm{
+    position: absolute;
+    top: 15px;
+    right: 120px;
 }

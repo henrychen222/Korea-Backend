@@ -1,0 +1,145 @@
+/*5.20 morning*/
+
+#register {
+    position: absolute;
+    top: 7%;
+    left: 45%;
+    color: orange;
+    font-size: 40px;
+    font-style: oblique;
+}
+
+#fn {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#fn_input {
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    padding: 0.5% 6.5% 0.5% 6.5%;
+    background-color: lightyellow;
+}
+
+.help-block-fn {
+    position: absolute;
+    top: 23%;
+    right: 25%;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: red;
+}
+
+#ln {
+    position: absolute;
+    top: 29%;
+    left: 40%;
+}
+
+#ln_input {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+    padding: 0.5% 6.5% 0.5% 6.5%;
+    background-color: lightyellow;
+}
+
+.help-block-ln {
+    position: absolute;
+    top: 32%;
+    right: 25%;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: red;
+
+}
+
+#un {
+    position: absolute;
+    top: 37%;
+    left: 40%;
+}
+
+#un_input {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    padding: 0.5% 6.5% 0.5% 6.5%;
+    background-color: lightyellow;
+}
+
+.help-block-un {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: red;
+
+}
+
+#password {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+
+#password_input {
+    position: absolute;
+    top: 48%;
+    left: 40%;
+    padding: 0.5% 6.5% 0.5% 6.5%;
+    background-color: lightyellow;
+}
+
+.help-block-password {
+    position: absolute;
+    top: 48%;
+    right: 25%;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: red;
+
+}
+
+#em {
+    position: absolute;
+    top: 53%;
+    left: 40%;
+}
+
+#em_input {
+    position: absolute;
+    top: 56%;
+    left: 40%;
+    padding: 0.5% 6.5% 0.5% 6.5%;
+    background-color: lightyellow;
+}
+
+.help-block-em {
+    position: absolute;
+    top: 56%;
+    right: 25%;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: red;
+
+}
+
+#sign_up {
+    position: absolute;
+    top: 62%;
+    left: 40%;
+    padding: 0.5% 3.5% 0.5% 3.5%;
+    background-color: orangered;
+}
+
+#cancel_btn {
+    position: absolute;
+    top: 62%;
+    left: 52.5%;
+    padding: 0.5% 3.5% 0.5% 3.5%;
+    background-color: orangered;
+}
