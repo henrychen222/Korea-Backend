@@ -21,7 +21,7 @@ class sidebar extends React.Component {
                                 <i className="fa fa-fw fa-home" style={{fontSize: '1.75em'}}/>
                             </NavIcon>
                             <NavText>
-                                <Link to="/resource">
+                                <Link to="/resourceNew">
                                     Resource
                                 </Link>
                             </NavText>
@@ -31,7 +31,7 @@ class sidebar extends React.Component {
                                 <i className="fa fa-fw fa-line-chart" style={{fontSize: '1.75em'}}/>
                             </NavIcon>
                             <NavText>
-                                <Link to="/project">
+                                <Link to="/projectNew">
                                     Project
                                 </Link>
                             </NavText>
@@ -41,7 +41,7 @@ class sidebar extends React.Component {
                                 <i className="fa fa-fw fa-line-chart" style={{fontSize: '1.75em'}}/>
                             </NavIcon>
                             <NavText>
-                                <Link to="/formula">
+                                <Link to="/formulaNew">
                                     Formula
                                 </Link>
                             </NavText>

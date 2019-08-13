@@ -1,0 +1,93 @@
+.Container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TablesContainer {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+}
+
+.Tables {
+    display: flex;
+}
+
+.SubmitButton {
+    padding: 6px 12px;
+    background-color: rgb(196, 80, 38);
+    font-size: 120%;
+    color: white;
+    font-weight: bolder;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.SubmitButton:hover, .SubmitButton:focus {
+    background-color: rgb(223, 13, 13);
+}
+
+.LeftTable {
+    width: 35%;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: rgb(0, 0, 0);
+}
+
+.InnerTable {
+    width: 92%;
+    margin: 0 auto 20px auto;
+}
+
+.RightTable {
+    width: 65%;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgb(0, 0, 0);
+}
+
+.Field, .RightTableBtn {
+    width: 92%;
+    margin: 0 auto 20px auto;
+}
+
+.Field {
+    background-color: rgb(228, 223, 223);
+}
+
+.RightTableBtn {
+    width: 150px;
+    float:right; clear:right;
+}
+
+.Part {
+    margin-bottom: 30px;
+}
+
+.HeaderContainer {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(228, 223, 223);
+}
+
+.Button {
+    padding: 6px 10px;
+    background-color: rgb(201, 70, 22);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.Button:hover, .Button:focus {
+    background-color: rgb(223, 13, 13);
+}
+
+.Bottom {
+    width: 100%;
+    margin: 15px auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+}

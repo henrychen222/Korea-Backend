@@ -5,8 +5,10 @@ import {Register} from "../components/RegisterPage";
 
 export const userService = {
     login,
+    login_springboot,
     logout,
     register,
+    register_springBoot,
     getAll,
     getById,
     update,
@@ -36,6 +38,21 @@ function login(username, password) {
     console.log(password);
 
     return axios.post('http://localhost:8080/newIndividual/login', {
+        username: username,
+        password: password,
+    }).then(function (response) {
+        console.log(response);
+    }).catch(function (error) {
+        console.log(error);
+    });
+}
+
+/* Use SpringBoot backend API: Login  6.27 */
+function login_springboot(username, password) {
+    console.log(username);
+    console.log(password);
+
+    return axios.post('http://localhost:8080/login', {
         username: username,
         password: password,
     }).then(function (response) {
@@ -98,7 +115,27 @@ function register(user) {
     }).catch(function (error) {
         console.log(error);
     });
+}
 
+/* Use SpringBoot backend API: Register  6.27 */
+function register_springBoot(user) {
+    console.log(user.username);
+    console.log(user.firstName);
+    console.log(user.lastName);
+    console.log(user.password);
+    console.log(user.email);
+
+    return axios.post('http://localhost:8080/register', {
+        firstname: user.firstName,
+        lastname: user.lastName,
+        username: user.username,
+        password: user.password,
+        email: user.email
+    }).then(function (response) {
+        console.log(response);
+    }).catch(function (error) {
+        console.log(error);
+    });
 }
 
 function update(user) {

@@ -1,3 +1,4 @@
+//created 5.13
 import React from 'react';
 
 export class Formula extends React.Component {

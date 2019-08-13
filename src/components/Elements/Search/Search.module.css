@@ -1,0 +1,16 @@
+.Input {
+    padding: 6px 10px;
+    background: rgb(255, 255, 255);
+    font-size: 17px;
+    border-width: 0;
+}
+
+.Button {
+    /* float: right; */
+    padding: 6px 10px;
+    background: rgb(196, 80, 38);
+    font-size: 17px;
+    border: none;
+    /* cursor: pointer; */
+    border-radius: 0 20% 20% 0;
+}

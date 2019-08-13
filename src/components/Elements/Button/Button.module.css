@@ -1,0 +1,46 @@
+.Button {
+    /* background-color: transparent; */
+    width: 100%;
+    /* border: none; */
+    color: rgb(255, 255, 255);
+    background-color: rgb(235, 67, 37);
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 13px 0 13px 0;
+    font-weight: bold;
+}
+
+/* .Button:first-of-type {
+    margin-left: 0;
+    padding-left: 0;
+} */
+
+.Button:disabled {
+    color: rgb(255, 254, 254);
+    background-color: rgb(215, 215, 215);
+    cursor: not-allowed;
+}
+
+.Success {
+    color: rgb(255, 255, 255);
+}
+
+.Danger {
+    color: #944317;
+}
+
+.Normal {
+    color: white;
+}
+
+.Popbtn {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    width: 100%;
+    padding: 7px 0 7px 0;
+    font-weight: bold;
+}

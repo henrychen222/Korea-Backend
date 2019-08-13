@@ -1,0 +1,64 @@
+.TopBar {
+    background-color: rgb(138, 138, 137);
+    padding: var(--Cell-padding);
+    display: flex;
+    justify-content: space-between;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: rgb(138, 138, 137) */
+}
+
+.Title {
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+    /* margin-left: -100px; */
+}
+
+.Table {
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style: solid;
+    border-color: rgb(138, 138, 137);
+    border-width: 2px;
+    padding-bottom: 12px;
+}
+
+.Button {
+    padding: 6px 10px;
+    background-color: rgb(201, 70, 22);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.Button:hover, .Button:focus {
+    background-color: rgb(223, 13, 13);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    /* display: none; */
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -120px;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}

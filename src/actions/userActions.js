@@ -15,7 +15,20 @@ function login(username, password) {
     return dispatch => {
         dispatch(request({username}));
 
-        userService.login(username, password)
+        // //use springMVC
+        // userService.login(username, password)
+        //     .then(
+        //         user => {
+        //             dispatch(success(user));
+        //             history.push('/home');
+        //         },
+        //         error => {
+        //             dispatch(failure(error));
+        //             dispatch(alertActions.error(error));
+        //         }
+        //     );
+
+        userService.login_springboot(username, password)
             .then(
                 user => {
                     dispatch(success(user));
@@ -50,12 +63,26 @@ function register(user) {
     return dispatch => {
         dispatch(request(user));
 
-        //Promise to deal with registration process
-        userService.register(user)
+        /* Promise to deal with registration process */
+        // // Use SpringMVC
+        // userService.register(user)
+        //     .then(
+        //         user => {
+        //             dispatch(success());
+        //             history.push('/login');   //after success register back to login page
+        //             dispatch(alertActions.success('Registration successful'));
+        //         },
+        //         error => {
+        //             dispatch(failure(error));
+        //             dispatch(alertActions.error(error));
+        //         }
+        //     );
+
+        userService.register_springBoot(user)
             .then(
                 user => {
                     dispatch(success());
-                    history.push('/login');   //after success register back to login page
+                    history.push('/login');
                     dispatch(alertActions.success('Registration successful'));
                 },
                 error => {

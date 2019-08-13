@@ -1,0 +1,58 @@
+.Container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TablePart {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(138, 138, 137);
+}
+
+.TopBar {
+    background-color: rgb(138, 138, 137);
+    padding: var(--Cell-padding);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title {
+    font-weight: bolder;
+    font-size: 150%;
+    text-align: center;
+    /* margin-left: -100px; */
+}
+
+.Button {
+    padding: 6px 12px;
+    background-color: rgb(196, 80, 38);
+    font-size: 120%;
+    color: white;
+    font-weight: bolder;
+    /* border: none; */
+    /* cursor: pointer; */
+    border-radius: 3px;
+}
+
+.Button:hover, .Button:focus {
+    background-color: rgb(223, 13, 13);
+}
+
+.Bottom {
+    width: 100%;
+    margin: 15px auto 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.EditLink {
+    font-size: 120%;
+    font-weight: bolder;
+    color: blue;
+}
+
+.EditLink:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

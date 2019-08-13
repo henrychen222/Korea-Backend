@@ -1,0 +1,29 @@
+.Parts {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Part {
+    padding-top: 15px;
+    padding-bottom: 18px;
+}
+
+.Button {
+    padding: 6px 10px;
+    background-color: rgb(201, 70, 22);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.Button:hover, .Button:focus {
+    background-color: rgb(223, 13, 13);
+}
+
+input[type="text"]:disabled {
+    background: #b8b6b6;
+}
